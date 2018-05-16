@@ -9,9 +9,9 @@ console.clear();
 
 var phoneNumber = prompt('Please enter you phone number', 0);
 
-if(phoneNumber <== 9) {
+if(phoneNumber <= 9) {
   console.error('Your phone number is lower')
-} else if(phoneNumber >== 11) {
+} else if(phoneNumber >= 11) {
   console.error('Your phone number is lower')
 } else {
   console.info('Your phone number is lower')
